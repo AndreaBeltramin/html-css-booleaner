@@ -13,16 +13,30 @@ img {
 }
 
 .logo-pic{ 
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
+}
+
+.titolo{
+    margin-bottom:  0%;
+}
+
+.sottotitolo{
+    color: rgb(60, 206, 255);
+    margin: 0%;
+}
+.data{
+    color: rgb(60, 206, 255);
+    margin: 0%;
+
 }
 
 .tim1{
-    width: 150px;
-    height: 150px;
+    width: 450px;
+    height: 350px;
 }
 .tim2{ 
-    width: 150px;
-    height: 150px;
+    width: 450px;
+    height: 350px;
 
 }
