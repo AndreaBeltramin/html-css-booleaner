@@ -5,15 +5,14 @@ img {
 
 /*header*/
 .logo-pic{ 
-    width: 100pox;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 
 .page-header{
-    background-image: url(pattern.png) ;
-    background-position: 100px;
-}
-.main-content{
+    background-image: image();
+    width: 100px;
+    height: 100px;
     
 }
 .tim1{
