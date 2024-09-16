@@ -25,10 +25,10 @@ img {
     color: rgb(60, 206, 255);
     margin: 0%;
 }
+
 .data{
     color: rgb(60, 206, 255);
     margin: 0%;
-
 }
 
 .tim1{
@@ -40,6 +40,7 @@ img {
     width: 500px;
     height: 350px;
 }
+
 .foto{
     margin-bottom: 0px;
 }
@@ -47,6 +48,27 @@ img {
 .paragrafo-foto1{
     margin: 0%;
 }
+
 .paragrafo-foto2{
     margin-top: 0px;
 }
+
+.lista{
+    margin-left: -25px;    
+}
+
+.riga1tabella{
+    color: white ;
+    background-color: rgb(86, 86, 226);
+    text-align: left;
+}
+
+.corpo-tabella{
+    
+}
+
+/*footer*/
+.titolo-footer{
+    color: rgb(134, 134, 134);
+}
+
