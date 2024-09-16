@@ -4,17 +4,19 @@ img {
 }
 
 /*header*/
+
+.page-header{
+    background-color: lightblue;
+    width: auto;
+    height: 180px; 
+    background-image: url(./img/pattern.png)
+}
+
 .logo-pic{ 
     width: 200px;
     height: 200px;
 }
 
-.page-header{
-    background-image: image();
-    width: 100px;
-    height: 100px;
-    
-}
 .tim1{
     width: 150px;
     height: 150px;
