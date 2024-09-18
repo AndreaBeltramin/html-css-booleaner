@@ -1,69 +1,86 @@
 /* reset */
 *{
     box-sizing: border-box;
+}
+body{
     margin: 0;
-    padding: 0;
 }
 
+/*utils*/
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
+h2,h3{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(82, 137, 201);
+}
+
+img{
+    max-width: 100%;
+}
 /*header*/
 .page-header{
-    background-color: lightblue;
-    width: auto;
-    height: 180px; 
-    background-image: url(./img/pattern.png)
+   background-image: url(../img/pattern.png);
+   background-color: rgb(38, 116, 206);
+    height: 120px; 
+    background-size: 30%; 
+    padding-top: 15px; 
+    padding-bottom: 15px;  
 }
-
 .logo-pic{ 
-    width: 250px;
-    height: 250px;
+    height: 100px;
+    padding-top: 45px;
+    
 }
 
 /*main*/
 .titolo{
     margin-bottom:  0%;
+    font-size: 2.5rem;
 }
 
-.sottotitolo{
-    color: rgb(60, 206, 255);
-    margin: 0%;
-}
-
-.data{
-    color: rgb(60, 206, 255);
-    margin: 0%;
-}
-
-.tim1{
-    width: 500px;
-    height: 350px;
-}
-
-.tim2{ 
-    width: 500px;
-    height: 350px;
+.intestazione{
+    color: lightgray;
+    font-weight: bold;
+    font-size: smaller;
 }
 
 .foto{
-    margin-bottom: 0px;
+    margin-left: 0;
+    margin-bottom: 0;
 }
 
-.paragrafo-foto1{
-    margin: 0%;
-}
+.fig-caption{
+    font-size: 0.7rem;
 
-.paragrafo-foto2{
-    margin-top: 0px;
 }
 
 .lista{
     margin-left: -25px;    
 }
 
-.riga1tabella{
-    color: white ;
-    background-color: rgb(86, 86, 226);
+.table{
+    border-collapse: collapse;
+}
+
+.head-table{
+    background-color: rgb(41, 117, 204);
+    color: white;
     text-align: left;
+}
+
+.prima-riga-tabella{
+    width: 50%;
+}
+
+.riga-dispari{
+    background-color: rgb(56, 186, 247);
 }
 
 /*footer*/
